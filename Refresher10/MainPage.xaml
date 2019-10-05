@@ -18,15 +18,13 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" VerticalAlignment="Center">
                 <TextBox x:Name="UrlTextBox" />
                 <TextBox x:Name="KeywordTextBox" />
             </StackPanel>
-            <Button x:Name="NavButton" Grid.Column="1" Content="Nav" Margin="10" />
-            <Button x:Name="GoButton" Grid.Column="2" Content="Go" Margin="10" />
-            <Button x:Name="NewWindowButton" Grid.Column="3" Content="New" Margin="10" />
+            <Button x:Name="GoButton" Grid.Column="1" Content="Go" Margin="10" />
+            <Button x:Name="NewWindowButton" Grid.Column="2" Content="New" Margin="10" />
         </Grid>
 
         <WebView x:Name="WebBrowserControl" Grid.Row="1" />
